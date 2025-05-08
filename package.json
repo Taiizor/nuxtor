@@ -1,0 +1,52 @@
+{
+	"name": "nuxtor",
+	"type": "module",
+	"version": "1.3.1",
+	"private": true,
+	"packageManager": "pnpm@10.9.0",
+	"description": "Starter template for Nuxt 3 and Tauri 2",
+	"author": "Nicola Spadari",
+	"license": "MIT",
+	"engines": {
+		"node": ">=23"
+	},
+	"scripts": {
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preinstall": "npx only-allow pnpm",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint . --fix",
+		"bump": "bumpp",
+		"tauri": "tauri",
+		"tauri:dev": "tauri dev",
+		"tauri:build": "tauri build",
+		"tauri:build:debug": "tauri build --debug"
+	},
+	"dependencies": {
+		"@nuxt/ui": "^3.0.2",
+		"@tauri-apps/api": "^2.5.0",
+		"@tauri-apps/plugin-fs": "^2.2.1",
+		"@tauri-apps/plugin-notification": "^2.2.2",
+		"@tauri-apps/plugin-os": "^2.2.1",
+		"@tauri-apps/plugin-shell": "^2.2.1",
+		"@tauri-apps/plugin-store": "^2.2.0",
+		"nuxt": "^3.16.2",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0",
+		"zod": "^3.24.3"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^4.12.0",
+		"@nuxt/eslint": "^1.3.0",
+		"@tauri-apps/cli": "^2.5.0",
+		"@vueuse/core": "^13.1.0",
+		"@vueuse/nuxt": "^13.1.0",
+		"bumpp": "^10.1.0",
+		"eslint": "^9.25.1",
+		"nuxt-svgo": "^4.0.17",
+		"typescript": "^5.8.3"
+	},
+	"resolutions": {
+		"typescript": "npm:tslite@latest"
+	}
+}

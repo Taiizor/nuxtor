@@ -3,7 +3,7 @@ name: release
 on:
   push:
     branches:
-      - release
+      - develop
 jobs:
   publish-tauri:
     permissions:

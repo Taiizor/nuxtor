@@ -33,7 +33,7 @@
 	},
 	"productName": "Nuxtor",
 	"version": "1.3.1",
-	"identifier": "com.nicolaspadari.nuxtor",
+	"identifier": "com.taiizor.nuxtor",
 	"plugins": {},
 	"app": {
 		"windows": [

@@ -11,8 +11,8 @@ Build super fast desktop applications!
 <br />
 
 <p float="left">
-	<img src="https://img.shields.io/github/package-json/v/NicolaSpadari/nuxtor" />
-	<img src="https://img.shields.io/github/license/NicolaSpadari/nuxtor" />
+	<img src="https://img.shields.io/github/package-json/v/Taiizor/nuxtor" />
+	<img src="https://img.shields.io/github/license/Taiizor/nuxtor" />
 </p>
 
 <br />
@@ -23,7 +23,7 @@ Build super fast desktop applications!
 
 <p align="center">Powered by Nuxt 3</p>
 
-Check more screenshots at [preview](https://github.com/NicolaSpadari/nuxtor/blob/main/preview.md)
+Check more screenshots at [preview](https://github.com/Taiizor/nuxtor/blob/main/preview.md)
 
 <br />
 
@@ -94,4 +94,4 @@ The same Tauri bundle will generate under `src-tauri/target`, but with the abili
 
 ## License
 
-MIT License © 2024-PRESENT [NicolaSpadari](https://github.com/NicolaSpadari)
+MIT License © 2025-PRESENT [Taiizor](https://github.com/Taiizor)
